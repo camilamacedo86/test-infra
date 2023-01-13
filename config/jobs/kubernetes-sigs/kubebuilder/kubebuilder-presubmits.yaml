@@ -26,7 +26,6 @@ presubmits:
     path_alias: sigs.k8s.io/kubebuilder
     branches:
       - ^master$
-      - ^feature/plugins-.+$
     spec:
       containers:
         - image: gcr.io/k8s-staging-test-infra/kubekins-e2e:v20230111-cd1b3caf9c-master
